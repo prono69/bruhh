@@ -1,9 +1,9 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: nope
     env: docker
-    repo: https://github.com/alist-org/alist-render.git # optional
+    repo: https://github.com/prono69/bruhh # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
